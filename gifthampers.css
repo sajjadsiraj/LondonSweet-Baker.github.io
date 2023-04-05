@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/* ////////////////////// Navbar Styling start//////////////////////////////////////// */
+
+
+.navbar{
+    /* background-color: #590d22 !important; */
+    background: linear-gradient(90deg, rgba(89,13,34,1) 0%, rgba(201,24,74,1) 100%) !important;
+    
+}
+
+.navbar .container .navbar-brand{
+    /* color:#fff !important; */
+    font-weight: bold !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.collapse .navbar-expand-md .nav-item .nav-link{
+    color: rgb(211, 201, 201);
+    font-weight: 600 !important;
+    font-family: 'Roboto', sans-serif !important;
+    font-size: 17px !important;
+}
+
+.collapse .navbar-expand-md .nav-item .nav-link:hover:not(.activeitem){
+    color: #fff;
+    transition: 0.5s !important;
+    background-color: #b61f4a56 !important;
+    border-radius: 3px !important;
+}
+.activeitem{
+    color: rgb(230, 179, 14)!important;
+   pointer-events: none;
+   cursor: not-allowed;
+
+}
+/* ////////////////////// Navbar Styling End//////////////////////////////////////// */
+
+.carousel-inner .carousel-item .carousel-caption h5{
+
+    font-size: 75px !important;
+    text-shadow: 2px 2px 5px #000 !important ;
+    font-family: 'Festive', cursive !important;
+}
+
+ .carousel-inner .carousel-item .carousel-caption p{
+    font-size: 30px !important;
+    text-shadow: 1px 1px 15px 10px #000 !important ;
+    font-family: 'Roboto', sans-serif !important;
+}
+ 
+.slideradjustment{
+    width: 100% !important;
+    height: 600px;
+
+}
+
+/* -------------------------our product styling srart---------------------------- */
+.product{
+    /* height: 1700px; */
+    width: 100%;
+    padding: 60px 0 50px 0;
+    margin-top: 60px !important;
+    margin-bottom: 20px !important;
+}
+
+.product h1{
+    font-size: 50px;
+    color: red;
+    font-weight: bold;
+    font-family: 'Festive', cursive !important;
+    text-shadow: 2px 2px 5px #000;
+}
+
+.product .futurep{
+    text-shadow:1px 1px 2px #000;
+    word-spacing: 1px !important;
+    letter-spacing: 1px !important;
+}
+
+.card{
+    margin-top: 40px !important;
+}
+
+.card:hover{    
+    
+    box-shadow: 3px 3px 10px #000;
+    transition: 0.5s;
+}
+
+.card .btn{
+    border-radius: 50px !important;
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.card .card-title{
+    font-size: 25px;
+    font-family: 'Pacifico', cursive;
+    text-shadow: 1px 1px 3px red;
+}
+    
+
+    /* -------------------------our product styling end---------------------------- */
+
+     /* -------------------------footer styling start---------------------------- */
+     .footer_style{
+        background: linear-gradient(90deg, rgba(89,13,34,1) 0%, rgba(201,24,74,1) 100%) !important;
+        color: #fff;
+    }
+
+    .footerlinks{
+        text-decoration:none ;
+        color: #fff;
+        font-family: 'Roboto', sans-serif !important;
+
+    }
+
+    .footerlinks:hover{
+        text-decoration:none ;
+        color: rgb(230, 179, 14);
+        font-weight: bold;
+        transition: 0.5s;
+
+    }
+
+    .footer_style .footer_p{
+        font-family: 'Roboto', sans-serif !important;
+    }
+
+    .facebook{
+        color:#fff;
+        background: #0b6bb4;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 100;
+        border-radius: 3px;
+    }
+
+    .facebook:hover{
+        color:  #0b6bb4;
+        background: #fff;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: bold;
+    }
+
+    .instagram{
+        color:#fff;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        padding: 10px;
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 100;
+        border-radius: 3px;
+    }
+
+    .instagram:hover{
+        color: #d6249f; 
+        background: #fff;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: bold;
+
+    }
+
+
+    .twitter{
+        color:#fff;
+        background: #0b6bb4;
+        padding: 10px 14px;
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 100;
+        border-radius: 3px;
+    }
+
+    .twitter:hover{
+        color:  #0b6bb4;
+        background: #fff;
+        text-decoration: none;
+        transition: 0.5s;
+        font-weight: bold;
+
+    }
+
+    .youtube{
+        background: #FF0000;
+        color:#fff;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 100;
+        border-radius: 3px;
+
+    }
+
+    .youtube:hover{
+        text-decoration: none;
+        background: #fff;
+        color:#FF0000;
+        font-weight: bold;
+        transition: 0.5s;
+    }
+
+    dl dt{
+        font-family: 'Roboto', sans-serif !important;
+        font-weight: 100;
+    }
+
+    dl dt .fa-envelope{
+        color: #4285F4;
+    }
+
+    dl dt .fa-map-marker-alt{
+        color: #1e0e4d;
+    }
+
+    dl dt .fa-phone-volume{
+        color: red;
+    }
+    /* -------------------------footer styling end---------------------------- */
+
+
+        /* ----------------------------------media query start---------------- */
+        
+@media (min-width:992px) {
+    /* .carousel-inner .carousel-item img{
+        height: 600px !important;
+    } */
+
+    .facebook{
+
+        font-weight: 100;
+    }
+
+    .instagram{
+        font-weight: 100;
+    }
+
+    .twitter{
+        font-weight: 100;
+    }
+
+
+    .youtube{
+        font-weight: 100;
+
+    }
+
+    /* .product{
+        height: 1500px !important;
+    } */
+ 
+    .card .btn{
+        border-radius: 50px !important;
+        font-family: 'Roboto', sans-serif !important;
+        font-size: 12px !important;
+    }
+    
+    .card .card-title{
+        font-size: 22px;
+        font-family: 'Pacifico', cursive;
+        text-shadow: 1px 1px 3px red;
+    }
+
+  
+}
+
+@media (min-width:768px) and (max-width:991px){
+    /* .product{
+        height: 3300px !important;
+    } */
+
+    .facebook{
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    .instagram{
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+    .twitter{
+        font-size: 13px;
+        font-weight: 100;
+    }
+
+
+    .youtube{
+        font-size: 13px;
+        font-weight: 100;
+
+    }
+
+    .carousel-inner .carousel-item img{
+        height: 425px !important;
+    }
+
+    .footer_style .footer_p{
+        font-size: 10px;
+    }
+
+
+
+}
+
+@media (min-width:575px) and (max-width:767px){
+    
+    .carousel-inner .carousel-item img{
+        height: 400px !important;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 44px !important;
+
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 16px !important;
+        font-weight: 100 !important;
+    }
+
+    /* .product{
+        height: 8250px !important;
+    } */
+
+    .footer_style .d-flex {
+        transform: translateY(-40px);
+    }
+
+    .facebook{
+        font-weight: 100;
+    }
+
+    .instagram{
+        font-weight: 100;
+    }
+
+    .twitter{
+        font-weight: 100;
+    }
+
+
+    .youtube{
+        font-weight: 100;
+
+    }
+
+    
+}
+
+@media (min-width:426px) and (max-width:574px){
+
+    .col-md-2 ul li{
+        list-style: none;
+
+    }
+
+     .carousel-inner .carousel-item img{
+        height: 300px !important;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 29px !important;
+
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 15px !important;
+        font-weight: 100 !important;
+    }
+
+    /* .product{
+        height: 7600px !important;
+    } */
+
+    .facebook{
+        font-size: 13px;
+        padding: 5px;
+        font-weight: 100;
+    }
+
+    .instagram{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+    .twitter{
+        padding: 5px 14px;
+        font-weight: 100;
+        font-size: 13px;
+    }
+
+
+    .youtube{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 13px;
+
+    }
+
+    .footer_style{
+        height: 800px;
+    }
+    .footer_style .footer_p{
+        font-size: 14px;
+    }
+
+    .footer_style h4{
+        font-size: 20px;
+    }
+
+    .footer_style .d-flex {
+        transform: translateY(-40px);
+    }
+
+
+}
+
+@media (min-width:376px) and ( max-width:425px) {
+
+    /* .product{
+        height: 6300px !important;
+    } */
+
+    .product h1{
+        font-size: 37px;
+    }
+
+    .footer_style{
+        height: 900px;
+    }
+
+    .facebook{
+        font-size: 12px;
+        padding: 5px;
+        font-weight: 100;
+    }
+
+    .instagram{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 12px;
+    }
+
+    .twitter{
+        padding: 5px 14px;
+        font-weight: 100;
+        font-size: 12px;
+    }
+
+
+    .youtube{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 12px;
+
+    }
+
+
+    .col-md-2 ul li{
+        list-style: none;
+
+    }
+
+     .carousel-inner .carousel-item img{
+        height: 250px !important;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 35px !important;
+
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 13px !important;
+        font-weight: 100 !important;
+    }
+
+    .footer_style .footer_p{
+        font-size: 14px;
+    }
+
+    .footer_style h4{
+        font-size: 20px;
+    }
+
+    .footer_style .d-flex {
+        transform: translateY(-40px);
+    }
+    
+    .footer_style{
+        height: 810px;
+    }
+}
+
+@media (min-width:322px) and (max-width:375px){
+    /* .product{
+        height: 5820px !important;
+    } */
+
+    .product h1{
+        font-size: 33px;
+    }
+
+    .product p{
+        font-size: 10px;
+    }
+
+    .carousel-inner .carousel-item img{
+        height: 250px !important;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 21px !important;
+
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 12px !important;
+        font-weight: 100 !important;
+    }
+
+    .facebook{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 10px;
+    }
+
+    .instagram{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 10px;
+    }
+
+    .twitter{
+        padding: 5px 14px;
+        font-weight: 100;
+        font-size: 10px;
+    }
+
+
+    .youtube{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 10px;
+
+    }
+
+    .footer_style{
+        height: 800px;
+    }
+
+    .footer_style .footerlinks{
+        font-size: 13px !important;
+    }
+
+    .footer_style .link_heading{
+        font-size: 15px !important;
+    }
+
+    .footer_style .logo{
+        font-size: 17px;
+    }
+
+    .footer_style p{
+        font-size: 14px;
+    }
+
+    .footer_style .d-flex {
+        transform: translateY(-40px);
+    }
+    .col-md-2 ul li{
+        list-style: none;
+
+
+    }
+
+
+}
+
+
+@media (max-width:321px){
+
+
+
+    .product h1{
+        font-size: 32px;
+    }
+
+    .product p{
+        font-size: 10px;
+    }
+
+    .carousel-inner .carousel-item img{
+        height: 250px !important;
+    }
+
+    .carousel-inner .carousel-item .carousel-caption h5{
+        font-size: 18px !important;
+
+    }
+
+    .carousel-inner .carousel-item .carousel-caption p{
+        font-size: 10px !important;
+        font-weight: 100 !important;
+    }
+
+
+    /* .product{
+        height: 5350px !important;
+    } */
+
+    .facebook{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 8px;
+    }
+
+    .instagram{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 8px;
+    }
+
+    .twitter{
+        padding: 5px 14px;
+        font-weight: 100;
+        font-size: 8px;
+    }
+
+
+    .youtube{
+        padding: 5px;
+        font-weight: 100;
+        font-size: 8px;
+
+    }
+
+    .footer_style{
+        height: 750px;
+    }
+    .footer_style .footerlinks{
+        font-size: 13px;
+    }
+
+    .footer_style .link_heading{
+        font-size: 19px;
+    }
+    
+    .col-md-2 ul li{
+        list-style: none;
+
+
+    }
+
+    .footer_style .footer_p{
+        font-size: 10px;
+    }
+
+    .footer_style .logo{
+        font-size: 13px;
+    }
+
+    .footer_style .d-flex {
+        transform: translateY(-40px);
+    }
+}
+
+        /* ----------------------------------media query end---------------- */
